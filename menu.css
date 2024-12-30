@@ -1,0 +1,93 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #f9f5e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b0000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+}
+
+header .owner-info {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+main {
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f4d03f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody tr {
+    transition: background-color 0.3s;
+}
+
+tbody tr:hover {
+    background-color: #ffe4b5;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8b0000;
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+    img {
+        max-width: 70px;
+    }
+
+    th, td {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p, .owner-info {
+        font-size: 0.9rem;
+    }
+}
